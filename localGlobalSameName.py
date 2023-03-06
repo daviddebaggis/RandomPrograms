@@ -1,0 +1,14 @@
+# Write your code here :-)
+def spam():
+    eggs = 'spam local'
+    print(eggs)     # prints 'spam local'
+
+def bacon():
+    eggs = 'bacon local'    #prints 'bacon local'
+    print(eggs)
+    spam()
+    print(eggs)                 #prints 'bacon local'
+
+eggs = 'global'
+bacon()
+print(eggs)         #prints 'global'
